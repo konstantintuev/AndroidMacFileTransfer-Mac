@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E7F97346CAD8A854E71C56 /* Pods_ToggleHotspotAndroid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEBBCEEA47BA407C14AF97A /* Pods_ToggleHotspotAndroid.framework */; };
+		6703B8F52275DB9600D8AA6D /* TransferFileToDevice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6703B8F42275DB9600D8AA6D /* TransferFileToDevice.xib */; };
+		6703B8FF2275DC8500D8AA6D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703B8FE2275DC8500D8AA6D /* ShareViewController.swift */; };
+		6703B9022275DC8500D8AA6D /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6703B9002275DC8500D8AA6D /* ShareViewController.xib */; };
+		6703B90D2275EE9500D8AA6D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703B90C2275EE9500D8AA6D /* Utils.swift */; };
+		6703B90E22760DF500D8AA6D /* RHEAEntityResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B5757922748AAD00643817 /* RHEAEntityResolver.m */; };
+		6703B90F22760DF500D8AA6D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703B90C2275EE9500D8AA6D /* Utils.swift */; };
+		67636B802276402E006B81EE /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703B8FE2275DC8500D8AA6D /* ShareViewController.swift */; };
+		67636B8122764121006B81EE /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6703B9002275DC8500D8AA6D /* ShareViewController.xib */; };
+		677586D9226E2645005DED06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677586D8226E2645005DED06 /* AppDelegate.swift */; };
+		677586DB226E2647005DED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677586DA226E2647005DED06 /* Assets.xcassets */; };
+		677586DE226E2647005DED06 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677586DC226E2647005DED06 /* MainMenu.xib */; };
+		677586EA226E2647005DED06 /* ToggleHotspotAndroidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677586E9226E2647005DED06 /* ToggleHotspotAndroidUITests.swift */; };
+		67B5757A22748AAD00643817 /* RHEAEntityResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B5757922748AAD00643817 /* RHEAEntityResolver.m */; };
+		FCAEC56ED4AC865C9DF56325 /* Pods_ToggleHotspotAndroidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB6457EE958EEFFA3E3DAF8 /* Pods_ToggleHotspotAndroidUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		677586E6226E2647005DED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677586CD226E2645005DED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677586D4226E2645005DED06;
+			remoteInfo = ToggleHotspotAndroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6703B90B2275DC8500D8AA6D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AEBBCEEA47BA407C14AF97A /* Pods_ToggleHotspotAndroid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleHotspotAndroid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2485CCAFBD0D8B2CAE563B52 /* Pods-ToggleHotspotAndroidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleHotspotAndroidUITests.release.xcconfig"; path = "Target Support Files/Pods-ToggleHotspotAndroidUITests/Pods-ToggleHotspotAndroidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6703B8F42275DB9600D8AA6D /* TransferFileToDevice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferFileToDevice.xib; sourceTree = "<group>"; };
+		6703B8FA2275DC8500D8AA6D /* CrossplatformDrop.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CrossplatformDrop.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6703B8FE2275DC8500D8AA6D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		6703B9012275DC8500D8AA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		6703B90C2275EE9500D8AA6D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		67636B82227641FB006B81EE /* ToggleHotspotAndroid.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ToggleHotspotAndroid.entitlements; sourceTree = "<group>"; };
+		677586D5226E2645005DED06 /* ToggleHotspotAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleHotspotAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		677586D8226E2645005DED06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		677586DA226E2647005DED06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677586DD226E2647005DED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		677586DF226E2647005DED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677586E5226E2647005DED06 /* ToggleHotspotAndroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleHotspotAndroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		677586E9226E2647005DED06 /* ToggleHotspotAndroidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleHotspotAndroidUITests.swift; sourceTree = "<group>"; };
+		677586EB226E2647005DED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6797CD7122734F170025EDAD /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B5757522748A4E00643817 /* ToggleHotspotAndroid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToggleHotspotAndroid-Bridging-Header.h"; sourceTree = "<group>"; };
+		67B5757822748AAD00643817 /* RHEAEntityResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEAEntityResolver.h; sourceTree = "<group>"; };
+		67B5757922748AAD00643817 /* RHEAEntityResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEAEntityResolver.m; sourceTree = "<group>"; };
+		7882E783B089C488580E920E /* Pods-ToggleHotspotAndroid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleHotspotAndroid.release.xcconfig"; path = "Target Support Files/Pods-ToggleHotspotAndroid/Pods-ToggleHotspotAndroid.release.xcconfig"; sourceTree = "<group>"; };
+		78A6E589EAAF4586F8E33B59 /* Pods-ToggleHotspotAndroid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleHotspotAndroid.debug.xcconfig"; path = "Target Support Files/Pods-ToggleHotspotAndroid/Pods-ToggleHotspotAndroid.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7F2FFC36AA507E9C5C18B3 /* Pods-ToggleHotspotAndroidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleHotspotAndroidUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToggleHotspotAndroidUITests/Pods-ToggleHotspotAndroidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB6457EE958EEFFA3E3DAF8 /* Pods_ToggleHotspotAndroidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleHotspotAndroidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6703B8F72275DC8500D8AA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586D2226E2645005DED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7F97346CAD8A854E71C56 /* Pods_ToggleHotspotAndroid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586E2226E2647005DED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAEC56ED4AC865C9DF56325 /* Pods_ToggleHotspotAndroidUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677586CC226E2645005DED06 = {
+			isa = PBXGroup;
+			children = (
+				677586D7226E2645005DED06 /* ToggleHotspotAndroid */,
+				677586E8226E2647005DED06 /* ToggleHotspotAndroidUITests */,
+				677586D6226E2645005DED06 /* Products */,
+				B3553FEB4E14B98D5CE82178 /* Pods */,
+				A4E8A1A2432E7A54CBC5AF20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		677586D6226E2645005DED06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				677586D5226E2645005DED06 /* ToggleHotspotAndroid.app */,
+				677586E5226E2647005DED06 /* ToggleHotspotAndroidUITests.xctest */,
+				6703B8FA2275DC8500D8AA6D /* CrossplatformDrop.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677586D7226E2645005DED06 /* ToggleHotspotAndroid */ = {
+			isa = PBXGroup;
+			children = (
+				67636B82227641FB006B81EE /* ToggleHotspotAndroid.entitlements */,
+				6703B8FE2275DC8500D8AA6D /* ShareViewController.swift */,
+				6703B9002275DC8500D8AA6D /* ShareViewController.xib */,
+				677586D8226E2645005DED06 /* AppDelegate.swift */,
+				677586DA226E2647005DED06 /* Assets.xcassets */,
+				677586DC226E2647005DED06 /* MainMenu.xib */,
+				677586DF226E2647005DED06 /* Info.plist */,
+				67B5757822748AAD00643817 /* RHEAEntityResolver.h */,
+				67B5757922748AAD00643817 /* RHEAEntityResolver.m */,
+				67B5757522748A4E00643817 /* ToggleHotspotAndroid-Bridging-Header.h */,
+				6703B8F42275DB9600D8AA6D /* TransferFileToDevice.xib */,
+				6703B90C2275EE9500D8AA6D /* Utils.swift */,
+			);
+			path = ToggleHotspotAndroid;
+			sourceTree = "<group>";
+		};
+		677586E8226E2647005DED06 /* ToggleHotspotAndroidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				677586E9226E2647005DED06 /* ToggleHotspotAndroidUITests.swift */,
+				677586EB226E2647005DED06 /* Info.plist */,
+			);
+			path = ToggleHotspotAndroidUITests;
+			sourceTree = "<group>";
+		};
+		A4E8A1A2432E7A54CBC5AF20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6797CD7122734F170025EDAD /* SwiftSocket.framework */,
+				1AEBBCEEA47BA407C14AF97A /* Pods_ToggleHotspotAndroid.framework */,
+				FCB6457EE958EEFFA3E3DAF8 /* Pods_ToggleHotspotAndroidUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3553FEB4E14B98D5CE82178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78A6E589EAAF4586F8E33B59 /* Pods-ToggleHotspotAndroid.debug.xcconfig */,
+				7882E783B089C488580E920E /* Pods-ToggleHotspotAndroid.release.xcconfig */,
+				FA7F2FFC36AA507E9C5C18B3 /* Pods-ToggleHotspotAndroidUITests.debug.xcconfig */,
+				2485CCAFBD0D8B2CAE563B52 /* Pods-ToggleHotspotAndroidUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6703B8F92275DC8500D8AA6D /* CrossplatformDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6703B9082275DC8500D8AA6D /* Build configuration list for PBXNativeTarget "CrossplatformDrop" */;
+			buildPhases = (
+				6703B8F62275DC8500D8AA6D /* Sources */,
+				6703B8F72275DC8500D8AA6D /* Frameworks */,
+				6703B8F82275DC8500D8AA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossplatformDrop;
+			productName = CrossplatformDrop;
+			productReference = 6703B8FA2275DC8500D8AA6D /* CrossplatformDrop.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		677586D4226E2645005DED06 /* ToggleHotspotAndroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677586EE226E2647005DED06 /* Build configuration list for PBXNativeTarget "ToggleHotspotAndroid" */;
+			buildPhases = (
+				3864DBE38C92B16948DBC36E /* [CP] Check Pods Manifest.lock */,
+				677586D1226E2645005DED06 /* Sources */,
+				677586D2226E2645005DED06 /* Frameworks */,
+				677586D3226E2645005DED06 /* Resources */,
+				13A3484DE80007475DE28763 /* [CP] Embed Pods Frameworks */,
+				6703B90B2275DC8500D8AA6D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleHotspotAndroid;
+			productName = ToggleHotspotAndroid;
+			productReference = 677586D5226E2645005DED06 /* ToggleHotspotAndroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		677586E4226E2647005DED06 /* ToggleHotspotAndroidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677586F1226E2647005DED06 /* Build configuration list for PBXNativeTarget "ToggleHotspotAndroidUITests" */;
+			buildPhases = (
+				401BEEC436EE87961651C380 /* [CP] Check Pods Manifest.lock */,
+				677586E1226E2647005DED06 /* Sources */,
+				677586E2226E2647005DED06 /* Frameworks */,
+				677586E3226E2647005DED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677586E7226E2647005DED06 /* PBXTargetDependency */,
+			);
+			name = ToggleHotspotAndroidUITests;
+			productName = ToggleHotspotAndroidUITests;
+			productReference = 677586E5226E2647005DED06 /* ToggleHotspotAndroidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		677586CD226E2645005DED06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Kosio;
+				TargetAttributes = {
+					6703B8F92275DC8500D8AA6D = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					677586D4226E2645005DED06 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					677586E4226E2647005DED06 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 677586D4226E2645005DED06;
+					};
+				};
+			};
+			buildConfigurationList = 677586D0226E2645005DED06 /* Build configuration list for PBXProject "ToggleHotspotAndroid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 677586CC226E2645005DED06;
+			productRefGroup = 677586D6226E2645005DED06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677586D4226E2645005DED06 /* ToggleHotspotAndroid */,
+				677586E4226E2647005DED06 /* ToggleHotspotAndroidUITests */,
+				6703B8F92275DC8500D8AA6D /* CrossplatformDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6703B8F82275DC8500D8AA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703B9022275DC8500D8AA6D /* ShareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586D3226E2645005DED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67636B8122764121006B81EE /* ShareViewController.xib in Resources */,
+				677586DB226E2647005DED06 /* Assets.xcassets in Resources */,
+				6703B8F52275DB9600D8AA6D /* TransferFileToDevice.xib in Resources */,
+				677586DE226E2647005DED06 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586E3226E2647005DED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A3484DE80007475DE28763 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToggleHotspotAndroid/Pods-ToggleHotspotAndroid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToggleHotspotAndroid/Pods-ToggleHotspotAndroid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3864DBE38C92B16948DBC36E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToggleHotspotAndroid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401BEEC436EE87961651C380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToggleHotspotAndroidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6703B8F62275DC8500D8AA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703B90E22760DF500D8AA6D /* RHEAEntityResolver.m in Sources */,
+				6703B90F22760DF500D8AA6D /* Utils.swift in Sources */,
+				6703B8FF2275DC8500D8AA6D /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586D1226E2645005DED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67636B802276402E006B81EE /* ShareViewController.swift in Sources */,
+				677586D9226E2645005DED06 /* AppDelegate.swift in Sources */,
+				67B5757A22748AAD00643817 /* RHEAEntityResolver.m in Sources */,
+				6703B90D2275EE9500D8AA6D /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677586E1226E2647005DED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677586EA226E2647005DED06 /* ToggleHotspotAndroidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677586E7226E2647005DED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677586D4226E2645005DED06 /* ToggleHotspotAndroid */;
+			targetProxy = 677586E6226E2647005DED06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6703B9002275DC8500D8AA6D /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6703B9012275DC8500D8AA6D /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+		677586DC226E2647005DED06 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677586DD226E2647005DED06 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6703B9092275DC8500D8AA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CrossplatformDrop/CrossplatformDrop.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YWV3Y3K2PT;
+				INFOPLIST_FILE = CrossplatformDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroid.CrossplatformDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrossplatformDrop/CrossplatformDrop-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6703B90A2275DC8500D8AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CrossplatformDrop/CrossplatformDrop.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YWV3Y3K2PT;
+				INFOPLIST_FILE = CrossplatformDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroid.CrossplatformDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CrossplatformDrop/CrossplatformDrop-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		677586EC226E2647005DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		677586ED226E2647005DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		677586EF226E2647005DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A6E589EAAF4586F8E33B59 /* Pods-ToggleHotspotAndroid.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ToggleHotspotAndroid/ToggleHotspotAndroid.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ToggleHotspotAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToggleHotspotAndroid/ToggleHotspotAndroid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		677586F0226E2647005DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7882E783B089C488580E920E /* Pods-ToggleHotspotAndroid.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ToggleHotspotAndroid/ToggleHotspotAndroid.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ToggleHotspotAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ToggleHotspotAndroid/ToggleHotspotAndroid-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		677586F2226E2647005DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7F2FFC36AA507E9C5C18B3 /* Pods-ToggleHotspotAndroidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YWV3Y3K2PT;
+				INFOPLIST_FILE = ToggleHotspotAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToggleHotspotAndroid;
+			};
+			name = Debug;
+		};
+		677586F3226E2647005DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2485CCAFBD0D8B2CAE563B52 /* Pods-ToggleHotspotAndroidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YWV3Y3K2PT;
+				INFOPLIST_FILE = ToggleHotspotAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuev.konstantin.ToggleHotspotAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToggleHotspotAndroid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6703B9082275DC8500D8AA6D /* Build configuration list for PBXNativeTarget "CrossplatformDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6703B9092275DC8500D8AA6D /* Debug */,
+				6703B90A2275DC8500D8AA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677586D0226E2645005DED06 /* Build configuration list for PBXProject "ToggleHotspotAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677586EC226E2647005DED06 /* Debug */,
+				677586ED226E2647005DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677586EE226E2647005DED06 /* Build configuration list for PBXNativeTarget "ToggleHotspotAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677586EF226E2647005DED06 /* Debug */,
+				677586F0226E2647005DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677586F1226E2647005DED06 /* Build configuration list for PBXNativeTarget "ToggleHotspotAndroidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677586F2226E2647005DED06 /* Debug */,
+				677586F3226E2647005DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 677586CD226E2645005DED06 /* Project object */;
+}
