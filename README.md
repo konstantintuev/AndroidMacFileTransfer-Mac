@@ -1,6 +1,8 @@
 # AndroidMacFileTransfer-Mac
 This a demo and is not ready and probably will never be ready but is cool.
 
+I am not finishing this because I was (am) on a hackintosh laptop and the bluetooth has a very bad reception and doesn't work after sleep and I can't even use it.
+
 # How it works
 1. Drag file to statusbar icon in mac from finder
 2. Mac scans for BLE peripherals
